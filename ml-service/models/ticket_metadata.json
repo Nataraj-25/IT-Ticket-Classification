@@ -1,4 +1,4 @@
-﻿{
+{
     "INC-1001":  {
                      "ticket_id":  "INC-1001",
                      "title":  "User account locked out after multiple failed logon attempts",
