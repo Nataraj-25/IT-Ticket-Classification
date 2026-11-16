@@ -1,0 +1,39 @@
+{
+  "name": "it-ticket-backend",
+  "version": "1.0.0",
+  "description": "Intelligent IT Ticket Analysis and Resolution Assistant - Node.js Primary Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "keywords": [
+    "hcltech",
+    "hackathon",
+    "it-tickets",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "HCLTech AI Engineer Hackathon Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 15000,
+    "verbose": true
+  }
+}

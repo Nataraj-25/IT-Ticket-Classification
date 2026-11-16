@@ -1,0 +1,137 @@
+[
+  {
+    "query_id": "Q-01",
+    "query_type": "near_duplicate",
+    "title": "VPN disconnects with error 800 after authentication",
+    "description": "User connects to GlobalProtect VPN using MFA. After 30 seconds connection drops with Error 800 gateway 10.240.0.1.",
+    "affected_service": "Corporate VPN",
+    "relevant_ticket_ids": ["INC-1006", "INC-1012", "INC-1054", "INC-1110"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-02",
+    "query_type": "semantic_variation",
+    "title": "Unable to keep active tunnel to enterprise remote gateway",
+    "description": "Remote worker on Windows 11 gets dropped intermittently every ten minutes keepalive expired.",
+    "affected_service": "Corporate VPN",
+    "relevant_ticket_ids": ["INC-1012", "INC-1006", "INC-1054"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-03",
+    "query_type": "exact_error_code",
+    "title": "AutoCAD installation failed with code 0x80070005",
+    "description": "Company Portal deployment halted exit code 0x80070005 access is denied in temp directory.",
+    "affected_service": "Endpoint Management (Intune)",
+    "relevant_ticket_ids": ["INC-1002", "INC-1020", "INC-1075"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-04",
+    "query_type": "near_duplicate",
+    "title": "Active Directory account locked out Event ID 4625",
+    "description": "Employee jdoe@corp.com locked out security log Event ID 4625 from workstation WS-1049.",
+    "affected_service": "Active Directory Domain Services",
+    "relevant_ticket_ids": ["INC-1001", "INC-1033", "INC-1088"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-05",
+    "query_type": "exact_error_code",
+    "title": "Nginx proxy HTTP 502 Bad Gateway to web clients",
+    "description": "API gateway web-gw-prod01 returning HTTP 502 upstream connection refused on port 8080.",
+    "affected_service": "Linux Application Cluster",
+    "relevant_ticket_ids": ["INC-1018", "INC-1045", "INC-1092"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-06",
+    "query_type": "exact_error_code",
+    "title": "HP LaserJet paper jam error 13.00.00 inside top cover",
+    "description": "Floor 3 shared printer PRN-FL3-COLOR offline error 13.00.00 print queue backed up.",
+    "affected_service": "Print Server Services",
+    "relevant_ticket_ids": ["INC-1014", "INC-1062", "INC-1105"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-07",
+    "query_type": "semantic_variation",
+    "title": "Dell laptop chassis swollen and trackpad lifting up",
+    "description": "User reports battery expanded bulging through keyboard safety hazard.",
+    "affected_service": "End User Computing",
+    "relevant_ticket_ids": ["INC-1025", "INC-1070", "INC-1115"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-08",
+    "query_type": "exact_error_code",
+    "title": "BSOD stop code 0x000000D1 nvlddmkm.sys driver crash",
+    "description": "Engineering desktop reboots into automatic repair loop with DRIVER_IRQL_NOT_LESS_OR_EQUAL.",
+    "affected_service": "End User Computing",
+    "relevant_ticket_ids": ["INC-1028", "INC-1082", "INC-1130"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-09",
+    "query_type": "exact_error_code",
+    "title": "Windows Update error 0x80248007 on Windows 11 Enterprise",
+    "description": "Cumulative update KB5034441 fails at 78% progress bar corrupt software distribution catalog.",
+    "affected_service": "Endpoint Management (Intune)",
+    "relevant_ticket_ids": ["INC-1035", "INC-1090", "INC-1142"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-10",
+    "query_type": "exact_error_code",
+    "title": "Emails stuck in Outlook Outbox error 0x8004210B",
+    "description": "User reports attachments >25MB queued in Outbox cannot send to external recipients.",
+    "affected_service": "Exchange Online",
+    "relevant_ticket_ids": ["INC-1038", "INC-1095", "INC-1148"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-11",
+    "query_type": "semantic_variation",
+    "title": "Cannot open procurement group inbox in Outlook",
+    "description": "Access denied when expanding procurement-inbox@corp.com folder location.",
+    "affected_service": "Exchange Online",
+    "relevant_ticket_ids": ["INC-1040", "INC-1098", "INC-1152"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-12",
+    "query_type": "semantic_variation",
+    "title": "Teams video freezing and voice robotic in meetings",
+    "description": "Conference calls cutting in and out poor call quality warning on local switch.",
+    "affected_service": "Microsoft Teams",
+    "relevant_ticket_ids": ["INC-1044", "INC-1102", "INC-1158"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-13",
+    "query_type": "keyword_distractor",
+    "title": "Outlook meeting room calendar decline",
+    "description": "Conflicting meeting room reservation in Executive Boardroom auto-attendant.",
+    "affected_service": "Exchange Online",
+    "relevant_ticket_ids": ["INC-1048", "INC-1106"],
+    "is_duplicate_expected": false
+  },
+  {
+    "query_id": "Q-14",
+    "query_type": "exact_error_code",
+    "title": "Backup job failed VSS writer error code 0x800423f4",
+    "description": "Veeam DAILY_FILESHARE backup failed freeze timeout system writer failed state.",
+    "affected_service": "SAN Storage PureStorage",
+    "relevant_ticket_ids": ["INC-1052", "INC-1112"],
+    "is_duplicate_expected": true
+  },
+  {
+    "query_id": "Q-15",
+    "query_type": "out_of_domain",
+    "title": "Quantum satellite telemetry link calibration",
+    "description": "Ion propulsion thruster attitude quaternion drift outside solar array margin.",
+    "affected_service": "Orbital Ground Station",
+    "relevant_ticket_ids": [],
+    "is_duplicate_expected": false
+  }
+]
